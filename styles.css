@@ -1,0 +1,36 @@
+header {
+  background-color: #091C2F;
+  width: 100%;
+  padding: 4px;
+  font-family: "proxima-nova-extra-condensed",sans-serif;
+  font-size: 60%;
+}
+
+header > h2 {
+  color: #fff;
+  /*font-family: sans-serif;*/
+}
+
+h2 > span {
+  color: #9B8754;
+}
+
+.special-offer-link {
+  color: #9B8754;
+}
+
+.special-offer {
+  color: #fff;
+  background-color: #091C2F;
+  border: none;
+  float: right;
+  margin: 0 1rem;
+}
+
+.home-big-container {
+  width: 100%;
+  length: 900px;
+  background-image: url(https://placebear.com/1200/600);
+  background-size: cover;
+
+}
