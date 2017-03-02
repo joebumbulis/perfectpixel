@@ -30,11 +30,28 @@ h2 > span {
 }
 
 /*Main Styling*/
+.hero {
+  background-image: url(https://placebear.com/1440/993);
+  /*background: blue;*/
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+hgroup {
+  text-align: center;
+  width: 32%;
+  display: inline-block;
+}
+
 h1 {
   /*color: #fff;*/
   font-family: "proxima-nova-extra-condensed",sans-serif;
-  text-align: center;
-  margin: 0;
+  display: inline-block;
+  font-size: 4rem;
+  margin: .5rem;
+  font-weight: 600;
+
+
 }
 
 h3{
@@ -46,8 +63,17 @@ h3{
 }
 .stories {
   float: right;
+  margin-top: 2rem;
 }
 
-.fa-search {
+.nav1 {
   float: left;
+  margin: 25px 20px;
+  font-size: 1.5rem;
+}
+
+.nav2 {
+  float: right;
+  margin: 25px 20px;
+  font-size: 1.5rem;
 }
