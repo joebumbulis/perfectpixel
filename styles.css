@@ -1,4 +1,6 @@
+/*Header Styling*/
 header {
+  box-sizing: border-box;
   background-color: #091C2F;
   width: 100%;
   padding: 4px;
@@ -27,34 +29,12 @@ h2 > span {
   margin: 0 1rem;
 }
 
-/*BODY*/
-.home-big-container {
-  width: 100%;
-  length: 100%;
-  box-sizing: border-box;
-  background-image: url(https://placebear.com/2550/1440);
-  background-size: cover;
-  padding: 30%;
+/*Main Styling*/
+h1 {
+  /*color: #fff;*/
+  font-family: "proxima-nova-extra-condensed",sans-serif;
 }
 
-.logo-top {
-  margin: 0 50%;
-  color: #fff;
-  position: absolute;
-}
-
-.products {
-  color: #fff;
-}
-
-.stories {
-  color: #fff;
-}
-
-.home-slogan {
-  color: #fff;
-}
-
-.shop-button {
-  color: #fff;
+h3{
+  font-family: "ltc-squareface",serif;
 }
