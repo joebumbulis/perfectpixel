@@ -27,10 +27,34 @@ h2 > span {
   margin: 0 1rem;
 }
 
+/*BODY*/
 .home-big-container {
   width: 100%;
-  length: 900px;
-  background-image: url(https://placebear.com/1200/600);
+  length: 100%;
+  box-sizing: border-box;
+  background-image: url(https://placebear.com/2550/1440);
   background-size: cover;
+  padding: 30%;
+}
 
+.logo-top {
+  margin: 0 50%;
+  color: #fff;
+  position: absolute;
+}
+
+.products {
+  color: #fff;
+}
+
+.stories {
+  color: #fff;
+}
+
+.home-slogan {
+  color: #fff;
+}
+
+.shop-button {
+  color: #fff;
 }
