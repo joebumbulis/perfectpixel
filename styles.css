@@ -59,11 +59,15 @@ h1 {
 h3{
   font-family: "ltc-squareface",serif;
   font-size: 3rem;
-  padding-left: 2rem;
+  padding-left: 3rem;
+  margin-top: 1.4rem;
+  line-height: 3.8rem;
+  width: 40rem;
 }
 
 p {
-  padding-left: 2rem;
+  font-family: "proxima-nova-extra-condensed",sans-serif;
+  padding-left: 3rem;
   font-size: 1rem;
 }
 
@@ -116,16 +120,23 @@ p {
   padding-right: 30px;
 }
 
+.trademark {
+  font-size: 1.5rem;
+  vertical-align: top;
+  line-height: 2.7rem;
+}
+
 .tall {
-  background-image: url(https://placebear.com/720/993);
+  background-image: url(https://placebear.com/720/990);
   background-size: cover;
   color: #fff;
   float: left;
-  width: 50%
+  width: 50%;
+  padding-bottom: 31.8rem;
 }
 
 .medium {
-  background-image: url(https://placebear.com/720/993);
+  background-image: url(https://placebear.com/720/800);
   background-size: cover;
   color: #fff;
   float: right;
