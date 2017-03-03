@@ -35,7 +35,6 @@ h2>span {
 
 .hero {
     background-image: url(https://placebear.com/1440/993);
-    /*background: blue;*/
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -48,8 +47,6 @@ hgroup {
 }
 
 h1 {
-    /*color: #fff;*/
-    /*font-family: "Fira Sans Extra Condensed", sans-serif;*/
     display: inline-block;
     margin: 0;
     font-weight: 600;
@@ -87,6 +84,10 @@ p {
     font-size: 1.2rem;
     margin-top: 0;
     padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 main a {
@@ -153,6 +154,9 @@ main a {
     vertical-align: top;
     line-height: 2.7rem;
 }*/
+h3 p {
+  text-align: center;
+}
 
 .tall {
     background-image: url(https://placebear.com/720/990);
@@ -169,22 +173,31 @@ main a {
     color: #fff;
     float: right;
     width: 50%;
+    padding-bottom: 35.5rem;
+    position: relative;
 }
 
 
-.hopper {
-  text-decoration: none;
+.middle-button {
+  /*display: inline-block;*/
+  margin: 0 auto;
+  background-color: blue;
+  width: 30%;
+}
 
+.hopper {
 }
 
 .duracoat {
-  text-decoration: none;
-
 }
+
+
 
 .short {
   background-image: url(https://image.freepik.com/free-vector/wrinkled-paper-texture_1100-12.jpg);
-  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .short a {
