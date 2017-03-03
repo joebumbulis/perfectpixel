@@ -58,7 +58,13 @@ h1 {
 
 h3{
   font-family: "ltc-squareface",serif;
-  font-size: .8rem;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+p {
+  padding-left: 2rem;
+  font-size: 1rem;
 }
 
 .main-text {
@@ -114,10 +120,34 @@ h3{
   background-image: url(https://placebear.com/720/993);
   background-size: cover;
   color: #fff;
+  float: left;
+  width: 50%
 }
 
 .medium {
   background-image: url(https://placebear.com/720/993);
   background-size: cover;
   color: #fff;
+  float: right;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  background-color: #091C2F;
+  color: #FFF;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin: 0 30%;
+  /*margin: 0 100%;*/
+}
+
+.built-for {
+  display: inline-block;
+  font-family: "ltc-squareface",serif;
+  width: 35%;
+  line-height: 1.7rem;
 }
