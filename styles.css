@@ -242,8 +242,8 @@ footer {
 
 .native {
   /*margin: 0 auto;*/
-  display: inline-block;
-  white-space: nowrap;
+  /*display: inline-block;*/
+  /*white-space: nowrap;*/
 }
 
 .native:before {
@@ -252,7 +252,7 @@ footer {
   display: inline-block;
   position: relative;
   top: 1.5rem;
-  width: 20%;
+  width: 10%;
   padding: 1rem;
   margin: 0 1.5rem;
 }
@@ -263,7 +263,7 @@ footer {
   display: inline-block;
   position: relative;
   top: 1.5rem;
-  width: 20%;
+  width: 10%;
   padding: 1rem;
   margin: 0 1.5rem;
 }
