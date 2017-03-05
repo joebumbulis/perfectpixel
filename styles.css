@@ -262,7 +262,7 @@ footer {
 
 .built-for {
     /*display: inline-block;*/
-    margin: 0 auto 2.1rem auto;
+    margin: 0 auto 3.2rem auto;
     font-family: "ltc-squareface", serif;
     width: 40%;
     line-height: 1.7rem;
@@ -270,33 +270,41 @@ footer {
 
 .footer-lists {
   /*display: inline-block;*/
-  text-align: center;
+  /*text-align: center;*/
 }
 
 ul {
-  list-style-type: none;
+  /*list-style-type: none;*/
   /*margin: 0 auto;*/
-  display: inline-block;
+  /*text-align: center;*/
   /*margin: 2rem;*/
+  text-align: center;
 }
 
 ul li {
   /*margin: 1rem 4.5rem;*/
   /*margin: 0 auto;*/
   display: inline-block;
-  padding: 1rem 3rem;
   font-family: "Fira Sans Extra Condensed", sans-serif;
   font-size: 1.4rem;
+  font-weight: 700;
+  list-style-type: none;
+  width: 15%;
 }
 
-.list1 {
-  float: left;
+ul.list1 {
+  margin-bottom: 2rem;
 }
 
-.list2 {
-  float: left;
 
+li a {
+  color: #FFF;
 }
+
+li a:hover {
+  color: #958259;
+}
+
 
 .native {
   color: #99BAC6;
