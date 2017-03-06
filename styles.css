@@ -261,6 +261,7 @@ footer {
 .footer-logo span {
   font-size: .2rem;
   vertical-align: top;
+  line-height: 2rem;
 }
 
 .built-for {
