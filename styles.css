@@ -172,6 +172,7 @@ a div {
     float: left;
     width: 50%;
     padding-bottom: 25rem;
+
 }
 
 
@@ -256,7 +257,6 @@ footer {
     margin: 1.3rem 30% 0 30%;
     font-size: 4rem;
     font-weight: bold;
-    font-stretch: expanded;
 }
 .footer-logo span {
   font-size: .2rem;
@@ -359,6 +359,7 @@ input {
   padding: .8rem 6.6rem;
   margin-right: .5rem;
   border: #fff;
+  outline: none;
 }
 
 button {
