@@ -7,6 +7,7 @@ header {
     padding: 4px;
     font-family: "Fira Sans Extra Condensed", sans-serif;
     font-size: 60%;
+    position: relative;
 }
 
 header>h2 {
@@ -26,8 +27,11 @@ h2>span {
     color: #fff;
     background-color: #091C2F;
     border: none;
-    float: right;
     margin: 0 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
 
 
@@ -333,7 +337,7 @@ li a:hover {
 h6 {
   color: #99BAC6;
   padding-bottom: 2rem;
-  
+
 }
 
 h6 a {
